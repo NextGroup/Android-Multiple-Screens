@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvRainbow1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="#FFFF0000"/>
+
+    <TextView
+        android:id="@+id/tvRainbow2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="#FFFF7F00"/>
+
+    <TextView
+        android:id="@+id/tvRainbow3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="#FFFFFF00"/>
+
+    <TextView
+        android:id="@+id/tvRainbow4"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="#FF00FF00"/>
+
+    <TextView
+        android:id="@+id/tvRainbow5"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="#FF0000FF"/>
+
+    <TextView
+        android:id="@+id/tvRainbow6"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="#FF4B0082"/>
+    
+    <TextView
+        android:id="@+id/tvRainbow7"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="#FF8B00FF"/>
+    
+</LinearLayout>

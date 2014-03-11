@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.nhnnext.sample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="org.nhnnext.sample1.measure.PxDpActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample1.measure.PtSpActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample1.measure.PtDpActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample3.layoutfolder.LayoutFolderActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample4.layoutadvanced.DimenActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample4.layoutadvanced.RuntimeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample5.viewgroup.LinearLayoutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample5.viewgroup.RelativeLayoutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample6.customview.ProfileActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample6.customview.ProfileActivity2"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
