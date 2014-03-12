@@ -76,7 +76,11 @@ public class ProfileView extends LinearLayout {
         }
 
         setMeasuredDimension(widthSize, heightSize);
-		tvName.setTextSize(widthSize/20);
+
+        if(widthSize < heightSize)
+        	tvName.setTextSize(widthSize/20);
+        else
+        	tvName.setTextSize(heightSize/20);
 	}
 	
 

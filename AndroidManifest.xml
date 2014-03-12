@@ -36,10 +36,6 @@
         <activity
             android:name="org.nhnnext.sample4.layoutadvanced.RuntimeActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="org.nhnnext.sample5.viewgroup.LinearLayoutActivity"
@@ -56,6 +52,22 @@
         <activity
             android:name="org.nhnnext.sample6.customview.ProfileActivity2"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample7.fragment.FragmentBasicActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample7.fragment.FragmentBasicActivity2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.nhnnext.sample7.fragment.FragmentDivideActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
